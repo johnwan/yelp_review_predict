@@ -123,21 +123,3 @@ test_data[test_data[0::,3] == '',3] = np.average(test_data[test_data[0::,3]\
                                            != '',3].astype(np.float))
 for row in test_data:
     open_file_object.writerow(row)
-
-##print 'Training '
-##forest = RandomForestClassifier(n_estimators=10)
-##
-##forest = forest.fit(train_data[0::,1::],train_data[0::,0])
-##
-##
-##
-##print 'Predicting'
-##output = forest.predict(test_data)
-
-
-
-    
-    
-    
-    
-        
